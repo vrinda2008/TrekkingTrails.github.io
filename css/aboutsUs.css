@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Poppins', sans-serif; */
+}
+body::before{
+    background: url('../images/aboutus/blonde-1867768_1280.jpg')no-repeat center center/cover;
+    content: '';
+    position: absolute;
+    z-index: -1;
+    /* opacity: 0.89; */
+    /* opacity: 0.7; */
+    height: 100%;
+    width: 100%;
+}
+#navbar::before{
+    background-color: white;
+    content: '';
+    position: absolute;
+    z-index: -1;
+    /* opacity: 0.4; */
+    height: 102.5px;
+    width: 100%;
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar .logo img{
+    height: 100px;
+    width: 100px;
+}
+#navbar .left{
+    margin: 30px;
+}
+#navbar .left .hthree{
+    font-size: 1.6rem;
+}
+.ulmid{
+    display: flex;
+    margin: 30px;
+}
+.ulmid .item{
+    list-style: none;
+}
+.ulmid .item a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.4rem;
+    color:black;
+    margin: 20px;
+}
+.mid .ulmid a:hover{
+    border-bottom: 4px solid #000;
+/* transition: 0.4s; */
+}
+#navbar .right{
+    margin: 30px;
+    font-size: 1.2rem;
+}
+#navbar .right .login{
+    padding: 12px;
+    color:black;
+    text-decoration: none;
+    border: 3px solid red;
+    border-radius: 7px;
+    font-weight: bold;
+}
+#navbar .right .login:hover{
+    background-color: red;
+}
+#navbar .right .signup{
+    font-weight: bold;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    border: 3px solid red;
+    margin: 10px;
+    border-radius: 7px;
+}
+#navbar .right .signup:hover{
+    background-color: red;
+}
+
+
+
+.submenu{
+    display: none;
+    position: absolute;
+    height: 100px;
+    width: 120px;
+}
+.submenu .places a{
+    color:black;
+    line-height: 30px;
+    font-size: 1.3rem;
+    padding: 2px;
+}
+.submenu .places a:hover{
+    color: darkred;
+    background-color: lightcoral;
+    padding: 2px;
+}
+.submenu li{
+    list-style: none;
+}
+.dropdown:hover .submenu{
+    display: block;
+}
+.mid .ulmid #des a:hover{
+    border-bottom: none;
+}
+
+
+
+#main .p1{
+    font-weight: bold;
+    font-size: 60px;
+    margin-left: 350px;
+    margin-top: 40px;
+}
+.boxtext{
+    /* border:2px solid red; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 600px;
+    margin-left: 150px;
+    margin-top: 20px;
+    /* background-color: black; */
+    background-color: peachpuff;
+    /* opacity: 0.3; */
+    /* z-index: -1; */
+    padding: 15px;
+}
+.textt .text1{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    text-align: center;
+}
